@@ -1,0 +1,29 @@
+* {
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
+}
+
+
+
+
+.content {
+    display: inline-block;
+    text-align: center;
+    padding: 100px 500px 0px 500px;
+}
+
+p{
+    margin: 10px;
+}
+
+.beti{
+    text-align: center;
+    vertical-align: middle;
+    padding: 100px 100px 100px;
+    width: auto;
+}
+
+.recipe-links{
+    display: inline-block;
+}
