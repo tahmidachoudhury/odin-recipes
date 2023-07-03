@@ -38,3 +38,10 @@ div.ingredients{
 div.equipment{
     margin-top: 20px;
 }
+
+.index-link{
+    font-size: large;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
