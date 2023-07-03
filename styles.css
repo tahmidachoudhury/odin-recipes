@@ -68,3 +68,21 @@ ul{
 li{
     background-color: transparent;
 }
+
+.index-link{
+    font-size: large;
+    display: block;
+    margin-bottom: 300px;
+}
+
+.cred{
+    text-align: center;
+    padding: 50px 50px 50px 50px;
+    display: inline-block;
+    background: linear-gradient(320deg, antiquewhite, rgb(245, 222, 191), antiquewhite);
+    border-radius: 45px;
+}
+
+.cred a{
+    background-color: transparent;
+}
