@@ -17,11 +17,13 @@ h1{
 i{
     color: #4b4233;
     font-weight: 700;
+    background-color: transparent;
 }
 
 em{
     color: #4b4233;
     font-weight: 700;
+    background-color: transparent;
 }
 
 h4{
