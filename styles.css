@@ -5,6 +5,8 @@
     color: #7e7462;
 }
 
+
+
 h1{
     color: #4b4233;
     display: inline-block;
@@ -13,6 +15,11 @@ h1{
 }
 
 i{
+    color: #4b4233;
+    font-weight: 700;
+}
+
+em{
     color: #4b4233;
     font-weight: 700;
 }
@@ -37,7 +44,7 @@ p{
 }
 
 .beti{
-    text-align: center;
+    text-align: right;
     vertical-align: middle;
 
 }
