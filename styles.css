@@ -2,28 +2,69 @@
     background-color: antiquewhite;
     box-sizing: border-box;
     /*border: 2px solid red;*/
+    color: #7e7462;
 }
 
+h1{
+    color: #4b4233;
+    display: inline-block;
+    width: 570px;
+    height: auto;
+}
 
+i{
+    color: #4b4233;
+    font-weight: 700;
+}
+
+h4{
+    display: block;
+    width: 200px;
+    height: auto;
+}
 
 
 .content {
     display: inline-block;
-    text-align: center;
-    padding: 100px 500px 0px 500px;
+    vertical-align: top;
 }
 
 p{
     margin: 10px;
+    height: auto;
+    width: 500px;
+    text-align: right;
 }
 
 .beti{
     text-align: center;
     vertical-align: middle;
-    padding: 100px 100px 100px;
-    width: auto;
+
 }
 
-.recipe-links{
+div.recipe-links {
     display: inline-block;
+    width: 280px;
+    height: auto;
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+div.recipe-links ul li a{
+    background-color: transparent;
+    opacity: 0.8;
+}
+
+div.recipe-links ul li a{
+    font-weight:800;
+    color: black;
+}
+
+ul{
+    background-color: transparent;
+    display: inline-block;
+}
+
+li{
+    background-color: transparent;
 }
