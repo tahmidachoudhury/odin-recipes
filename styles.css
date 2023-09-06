@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: Sans-Serif;
+}
+
+.wrapper{
+    display: flex;
+}
+
+/*background*/
+.chicken{
+    filter: brightness(70%);
+    flex: 1;
+}
+.daal{
+    flex: 1;
+    filter: brightness(70%);
+}
+.prob-not-needed{
+    display: flex;
+}
+.aloo{
+    flex: 1;
+    filter: brightness(70%);
+}
+
+.transition{
+    transform: scale(1.1);
+}
+/*-----------------------------------*/
+
+
+/*text*/
+.text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container{
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+.cred{
+    text-align: center;
+}
+
+
+
