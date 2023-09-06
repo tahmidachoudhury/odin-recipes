@@ -2,6 +2,19 @@ body{
     text-align: center;
 }
 
+h1{
+    color: #4b4233;
+    display: inline-block;
+    width: 570px;
+    height: auto;
+}
+
+i{
+    color: #4b4233;
+    font-weight: 700;
+    background-color: transparent;
+}
+
 p{
     width: 600px;
     height: auto;
@@ -16,6 +29,15 @@ img{
     width: auto; 
     margin-top: 20px; 
     box-shadow: 5px 0 30px 5px;
+}
+
+ul{
+    background-color: transparent;
+    display: inline-block;
+}
+
+li{
+    background-color: transparent;
 }
 
 ul{
