@@ -1,20 +1,41 @@
 *{
-    margin: 0;
     font-family: Sans-Serif;
+    margin: 0;
 }
 
 .wrapper{
     display: flex;
 }
 
+a.link{
+    display: flex;
+    flex: 1;
+}
+
+.head{
+    z-index: 3;
+    position: fixed;
+    top: 2.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
 /*background*/
 .chicken{
     filter: brightness(70%);
     flex: 1;
+    z-index: 1;
+    transition: all 0.15s;
 }
 .daal{
     flex: 1;
     filter: brightness(70%);
+    z-index: 1;
+    transition: all 0.15s;
 }
 .prob-not-needed{
     display: flex;
@@ -22,10 +43,13 @@
 .aloo{
     flex: 1;
     filter: brightness(70%);
+    transition: all 0.15s;
 }
 
 .transition{
-    transform: scale(1.1);
+    transform: scale(1.01);
+    z-index: 2;
+    filter: brightness(50%);
 }
 /*-----------------------------------*/
 
@@ -40,6 +64,9 @@
     width: 800px;
 }
 
+.content{
+    margin-bottom: 40px;
+}
 
 
 
@@ -48,7 +75,11 @@
 
 
 .cred{
-    text-align: center;
+    z-index: 3;
+    position: fixed;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
