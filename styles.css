@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .wrapper{
     display: flex;
 }
@@ -58,14 +62,21 @@ a.link{
 .text{
     display: flex;
     justify-content: space-evenly;
+    background-color: rgb(28, 28, 28);
+    padding: 150px;
+    height: 30vh;
+    
 }
 
 .container{
     width: 800px;
+    color: white;
+
 }
 
 .content{
     margin-bottom: 40px;
+    font-size: 1rem;
 }
 
 
@@ -80,7 +91,12 @@ a.link{
     top: 98%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
 }
 
-
+a.author{
+    color: white;
+}
 
