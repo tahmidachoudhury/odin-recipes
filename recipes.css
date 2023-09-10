@@ -1,5 +1,12 @@
+*{
+    background-color: rgb(28, 28, 28);
+}
+
 body{
     text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 0.8rem;
 }
 
 h1{
@@ -28,7 +35,8 @@ img{
     height: 600px;
     width: auto; 
     margin-top: 20px; 
-    box-shadow: 5px 0 30px 5px;
+    box-shadow: 1px 1px 30px 1px;
+    color: white;
 }
 
 ul{
