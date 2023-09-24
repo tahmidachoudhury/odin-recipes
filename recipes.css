@@ -74,4 +74,15 @@ div.equipment{
     display: block;
     margin-top: 50px;
     margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.index-link:hover, a:hover{
+    text-decoration: underline;
 }
