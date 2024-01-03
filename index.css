@@ -71,6 +71,10 @@ a.link{
     background-color: rgb(28, 28, 28)
 }
 
+.comedic-gap{
+    letter-spacing: 0.03em;
+}
+
 .container{
     width: 800px;
     color: white;
@@ -78,8 +82,12 @@ a.link{
 }
 
 .content{
-    margin-bottom: 40px;
     font-size: 1rem;
+    margin-top: 12px;
+}
+
+.content p{
+    margin-top: 6px;
 }
 
 /*main---------------------------------------------*/
